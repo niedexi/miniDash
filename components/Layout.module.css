@@ -1,0 +1,20 @@
+/* components/Layout.module.css */
+.container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .nav {
+    width: 100px;
+    background: #f4f4f4;
+    padding: 20px;
+    position: fixed;
+    height: 100%;
+  }
+  
+  .main {
+    margin-left: 200px;
+    padding: 20px;
+    width: calc(100% - 200px);
+  }
+  
